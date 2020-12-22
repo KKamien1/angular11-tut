@@ -13,8 +13,8 @@ export class HeroesComponent implements OnInit {
     id: 1
   }
   heroes = HEROES;
-
   selectedHero: Hero;
+
   onSelect(hero: Hero): void {
     this.selectedHero = hero;
   }
